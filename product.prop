@@ -2,3 +2,7 @@
 ro.config.media_vol_steps=30
 ro.config.vc_call_vol_steps=8
 
+# Bluetooth
+persist.bluetooth.leaudio.allow.multiple.context=false
+persist.bluetooth.leaudio_offload.disabled=false
+ro.bluetooth.leaudio_offload.supported=true
