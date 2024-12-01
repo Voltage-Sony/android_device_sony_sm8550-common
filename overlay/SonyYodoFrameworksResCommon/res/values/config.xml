@@ -543,4 +543,7 @@
         <item>eutran,11</item>
         <item>nfc,1</item>
     </string-array>
+
+     <!-- Determines whether the shell features all run on another thread. -->
+     <bool name="config_enableShellMainThread">true</bool>
 </resources>
