@@ -11,3 +11,9 @@ persist.bluetooth.leaudio.notify.idle.during.call=true
 persist.bluetooth.leaudio_offload.disabled=false
 ro.bluetooth.leaudio_offload.supported=true
 ro.bluetooth.leaudio_switcher.supported=true
+
+# MTE
+persist.arm64.memtag.app.com.android.se=off 
+persist.arm64.memtag.app.com.google.android.bluetooth=off 
+persist.arm64.memtag.app.com.android.nfc=off 
+persist.arm64.memtag.process.system_server=off
