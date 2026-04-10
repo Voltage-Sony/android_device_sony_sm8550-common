@@ -301,7 +301,6 @@ vendor/lib64/vendor.qti.latency@2.1.so
 vendor/lib64/vendor.qti.latency@2.2.so
 
 # Camera
-vendor/lib64/libSNPE.so
 vendor/lib64/libSnpeHtpV73Stub.so
 vendor/lib64/vendor.somc.hardware.videoeffect-V1-impl.so
 vendor/lib64/vendor.somc.hardware.videoeffect-V1-ndk_platform.so
@@ -529,7 +528,6 @@ vendor/lib64/vendor.semc.hardware.extlight-V1-ndk_platform.so
 vendor/lib64/libfastcvdsp_stub.so
 
 # FM
-system/lib64/vendor.qti.hardware.fm-V1-ndk.so
 system_ext/lib64/fm_helium.so
 system_ext/lib64/libfm-hci.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
@@ -666,27 +664,22 @@ vendor/lib64/vendor.semc.system.idd@1.0.so
 vendor/lib64/vendor.semc.system.idd@1.1.so
 
 # IMS
-system/lib64/vendor.qti.diaghal-V1-ndk.so
 system_ext/app/ImsRcsService/ImsRcsService.apk
-system_ext/priv-app/QtiTelephony/QtiTelephony.apk
+system_ext/app/QtiTelephony/QtiTelephony.apk
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml
 system_ext/etc/sysconfig/qti_telephony_system_packages_config.xml
 system_ext/etc/sysconfig/qti_whitelist_system_ext.xml
 system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar
-system_ext/framework/vendor.qti.ims.connectionaidlservice-V1-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar
 system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar
-system_ext/framework/vendor.qti.ims.factoryaidlservice-V1-java.jar
 system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar
 system_ext/framework/vendor.qti.ims.rcssip-V1.1-java.jar
 system_ext/framework/vendor.qti.ims.rcssip-V1.2-java.jar
-system_ext/framework/vendor.qti.ims.rcssipaidlservice-V1-java.jar
 system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar
 system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar
 system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar
-system_ext/framework/vendor.qti.ims.rcsuceaidlservice-V1-java.jar
 system_ext/lib64/lib-imsvideocodec.so
 system_ext/lib64/lib-imsvt.so
 system_ext/lib64/lib-imsvtextutils.so
@@ -924,7 +917,6 @@ system_ext/lib64/vendor.qti.hardware.qccsyshal@1.1.so
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so
 system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2.so
 system_ext/lib64/vendor.qti.hardware.qccvndhal@1.0.so
-system_ext/lib64/vendor.qti.qccsyshal_aidl-V1-ndk.so
 system_ext/lib64/vendor.qti.qccvndhal_aidl-V1-ndk.so
 vendor/bin/qcc-vendor
 vendor/etc/init/init.qccvendor.rc
@@ -1063,7 +1055,6 @@ vendor/lib64/libril-legacy.so
 vendor/lib64/libril-qc-ltedirectdisc.so
 vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/librilqmimiscservices.so
-vendor/lib64/libspc_vendor.so
 vendor/lib64/qcrilInterfaces.so
 vendor/lib64/qcrilMarshal.so
 vendor/lib64/qcrilNrQmiModule.so
@@ -1112,7 +1103,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.2.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-vendor/lib64/vendor.semc.hardware.spc-V1-ndk_platform.so
 vendor/lib64/vendor.somc.hardware.radio@1.0.so
 vendor/lib64/vendor.somc.hardware.aidlradio-V1-ndk.so
 
@@ -1168,16 +1158,12 @@ vendor/lib64/libminkdescriptor.so
 vendor/lib64/libminksocket_vendor.so
 vendor/lib64/libqcbor.so
 
-# SPC service
-vendor/bin/hw/vendor.semc.hardware.spc-service
-vendor/etc/init/vendor.semc.hardware.spc-service.rc
-
 # SSR
 vendor/bin/ssr_setup
 vendor/bin/subsystem_ramdump
 
 # Secd
-system_ext/lib64/libMiscTaWrapper.so:vendor/lib64/libMiscTaWrapper.so
+system/lib64/libMiscTaWrapper.so:vendor/lib64/libMiscTaWrapper.so
 system_ext/etc/permissions/jp.co.sony.mc.misctasdklibrary.xml
 system_ext/framework/jp.co.sony.mc.misctasdklibrary.jar
 vendor/bin/hw/vendor.semc.hardware.secd@1.1-service
@@ -1335,6 +1321,7 @@ vendor/lib64/liblmthermallistner.so
 vendor/lib64/libsys-utils.so
 vendor/lib64/libthermal_engine.so
 vendor/lib64/libthermalclient.so
+vendor/lib64/vendor.semc.hardware.thermal@1.0.so
 
 # Time services
 vendor/app/TimeService/TimeService.apk
@@ -1436,7 +1423,6 @@ system_ext/lib64/libwfduibcsinkinterface.so|a41b4d1fa4307a247b1f059a5b5cdf7f6a64
 system_ext/lib64/libwfduibcsrc.so|5be7d282be9ab45297bd030f8e37a45f48aa8677
 system_ext/lib64/libwfduibcsrcinterface.so|0e32acc87c8518e8ebb44f6ef341a2e278e1e7c2
 system_ext/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|2b2563450ad6a8d46d5648b97f63f87c5d9983ca
-system_ext/lib64/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so|58cd9358df40aa16ddf0e603b736c58588623b9e
 system_ext/priv-app/WfdService/WfdService.apk|b8a1d9f83804d274fab6e09e0607082801207f60
 
 # WiFi Display (vendor)
