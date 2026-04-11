@@ -409,23 +409,23 @@ vendor/lib64/libdiag.so
 vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
 
 # Display (HDR)
-vendor/lib64/libhdr_backlight_adapter.so
-vendor/lib64/libhdr_tm.so
+vendor/lib64/libhdr_backlight_adapter.so|bc63f13a2ed73c2d9da25afec0e925842968a791
+vendor/lib64/libhdr_tm.so|4395b0123072b4fda1cb6e8816bc95f38760db8a
 
 # Display (HWC)
-vendor/bin/qdcmss
-vendor/etc/init/qdcmss.rc
+vendor/bin/qdcmss|1578f4866f3f01920eb9f708cf433686b5e88dd9
+vendor/etc/init/qdcmss.rc|53d78d686678c4f923a9ec4ace7d4d3575b13788
 vendor/etc/snapdragon_color_libs_config.xml
-vendor/lib64/libbacklight-calib.so
-vendor/lib64/libdigital-dimming.so
-vendor/lib64/libdpps.so
-vendor/lib64/libgame_enhance.so
-vendor/lib64/libmemutils.so
-vendor/lib64/libqdcm-algo.so
-vendor/lib64/libqdcm-json-mode-parser.so
-vendor/lib64/libqdcm-mode-parser.so
-vendor/lib64/libsnapdragoncolor-manager.so
-vendor/lib64/libsnapdragoncolor-qdcm.so
+vendor/lib64/libbacklight-calib.so|960969b0c696adc9c5709b93eb1b82b2eb829523
+vendor/lib64/libdigital-dimming.so|e5aa6e0b4899766fe5b7eb1aae9c71470840da76
+vendor/lib64/libdpps.so|3b7c22595f1e974f44e4946db53f870e66e75a6f
+vendor/lib64/libgame_enhance.so;DISABLE_CHECKELF|be1767306cb3be987ef5df3d6a76df2181d6819c
+vendor/lib64/libmemutils.so;DISABLE_CHECKELF|c66a080b7dcfc810039a8f10f536824c94af1903
+vendor/lib64/libqdcm-algo.so|75cf6b8a20b4d0a9852ba82d9bdf1246717354d5
+vendor/lib64/libqdcm-json-mode-parser.so|052471d6fbf778e97fc3181a6cbaa21e362a9da7
+vendor/lib64/libqdcm-mode-parser.so|0dee919d0a792e78af2c6a9015e2076060d04dad
+vendor/lib64/libsnapdragoncolor-manager.so|4bea67cd99a374a680738da8d84511ac8837ee69
+vendor/lib64/libsnapdragoncolor-qdcm.so|5d50c774d34c5e72319952088f96bceacbfafef7
 vendor/lib64/libvmmem.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
@@ -433,34 +433,34 @@ vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/etc/clstc_config_library.xml
 vendor/etc/disp_color_conf.xml
 vendor/etc/disp_panel_conf.xml
-vendor/etc/display/DPU660.xml
-vendor/etc/display/DPU670.xml
-vendor/etc/display/DPU720.xml
-vendor/etc/display/DPU7__.xml
-vendor/etc/display/DPU820.xml
-vendor/etc/display/DPU8__.xml
-vendor/etc/display/DPU9__.xml
+vendor/etc/display/DPU660.xml|b26dd73e361546d89bf3d7082a471703dc6ac2cb
+vendor/etc/display/DPU670.xml|e5131a60ceff29ca5eb561eec7eddadef1d0486f
+vendor/etc/display/DPU720.xml|4e54e8712d65773eb87867bf64a4cb98ea9bb8c3
+vendor/etc/display/DPU7__.xml|c056f3cb9fa123ca3de5b2a9775c184dddf25b9d
+vendor/etc/display/DPU820.xml|269dfeca6914f464fad8c058030e140e702674ea
+vendor/etc/display/DPU8__.xml|80ce92b8458cf82bc27a92aeb11724a62010ecbc
+vendor/etc/display/DPU9__.xml|691b8c27d488efb486520ecda6a7b52c1d4fa582
 vendor/etc/display/advanced_sf_offsets.xml
 vendor/lib64/libclstc_hdr.so
-vendor/lib64/libintervmipc.so
-vendor/lib64/libqrtrclient.so
+vendor/lib64/libintervmipc.so;DISABLE_CHECKELF|132c4d15fdb49001c3a964963526e5bc3f2f
+vendor/lib64/libqrtrclient.so;DISABLE_CHECKELF|fba9de51dd288cd7d346cc8317116ce1a4f79a24
 vendor/lib64/libSonyDisplayProperties.so
 
 # Display (SDM) - From Motorola rtwo_g-user 14 U1TR34.8-30-13 c6cfc-4ed033 release-keys - RETAIL
-vendor/lib64/libclstc_algorithm_adapter.so|83c9312dc159fb7b26f209771c9af0a4765abaaa
-vendor/lib64/libclstc_gcp_adapter.so|b79dadb2a1f01fbd9247ce2d9eb2623f2bb09f45
-vendor/lib64/libclstc_tm.so|4493a709d717985b50c70c6a3be26d59fa8e367f
-vendor/lib64/libdisplayqos.so|b5a09fcc1069997513b76f55cc3f6a3066994956
-vendor/lib64/libdisplayskuutils.so|4335b456d8228a4eaa9a9a2bd8777879159607a1
-vendor/lib64/libqseed3.so|3f3540f90ddafc814d86bb04c95446e4623ffa2e
-vendor/lib64/librcmask.so|b5c7dd55f9a517f61dba444662996ee551224257
-vendor/lib64/libsdm-color.so|c36b857c03f1ac8e89882fd59812ae501e4c9772
-vendor/lib64/libsdm-colormgr-algo.so|e869abec7e7a19898e8263c1f20721121f068e14
-vendor/lib64/libsdm-disp-vndapis.so|5fa6bcf6d84109034e9375eaeaec01fcbf048d48
-vendor/lib64/libsdmextension.so|8d0310509ee086408322a25499ad5c6b155e21dd
-vendor/lib64/libtestutils.so|c08a0c89b3102badf6eb58cb38df608d70a43877
-vendor/lib64/libtinyxml2_1.so|2b1b8300b0fd7a6059d13dae00f60735445725f9
-vendor/lib64/libvmfilexfer.so|8520a88db5dedc1a7226be4b3aeb7e6bef6d4dce
+vendor/lib64/libclstc_algorithm_adapter.so|3f92b1372bb5d733254d51fd44eafc4557e81477
+vendor/lib64/libclstc_gcp_adapter.so|496bb018995bd97913962c1adf758abd064ec5c3
+vendor/lib64/libclstc_tm.so|88225297f0198e3fc082e568c64e81756b5816db
+vendor/lib64/libdisplayqos.so|cdb254b7dbea6e127118202e62a8f991de15e386
+vendor/lib64/libdisplayskuutils.so|3698e4d196b0db6616fcc56b4014e9f55e5c203f
+vendor/lib64/libqseed3.so|20ed2c8050c3022e8381fa7ebc9f1108b77ac70f
+vendor/lib64/librcmask.so|0678c239f7329f9ba77bf7b4940cd3a91ae20c1c
+vendor/lib64/libsdm-color.so|8b89055f3508c34fbb858146c6764da21fff57cf
+vendor/lib64/libsdm-colormgr-algo.so|df253570b62302087d727283a1f07118e0b499ee
+vendor/lib64/libsdm-disp-vndapis.so|b79fe28b7476099830dadb0e55213327afe62c26
+vendor/lib64/libsdmextension.so|9dd9ca596b2855987e33d60bedf2e9358178a2bb
+vendor/lib64/libtestutils.so|0d541901b4beea3134914b2d68868c52405283fc
+vendor/lib64/libtinyxml2_1.so|6d273d620a91be40007c3ec77bc8769b3929b364
+vendor/lib64/libvmfilexfer.so;DISABLE_CHECKELF|6b8b0686a5d512431ff42a1fac23965cab8bce83
 
 # Display (Sony)
 vendor/bin/hw/vendor.semc.hardware.display@2.5-service
