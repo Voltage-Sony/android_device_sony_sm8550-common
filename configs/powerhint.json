@@ -136,7 +136,7 @@
       "Path": "/sys/devices/system/cpu/bus_dcvs/DDR/24091000.qcom,bwmon-ddr/min_freq",
       "Values": [
         "4224000",
-        "2092000",
+        "1555000",
         "547000"
       ],
       "ResetOnInit": true
@@ -289,7 +289,7 @@
       "PowerHint": "INTERACTION",
       "Node": "CPUBWMinFreq",
       "Duration": 0,
-      "Value": "2092000"
+      "Value": "1555000"
     },
     {
       "PowerHint": "INTERACTION",
