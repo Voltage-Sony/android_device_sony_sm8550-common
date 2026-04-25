@@ -317,24 +317,6 @@
     },
     {
       "PowerHint": "LAUNCH",
-      "Node": "CPUBigPlusClusterMinFreq",
-      "Duration": 1000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "CPUBigClusterMinFreq",
-      "Duration": 1000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "LAUNCH",
-      "Node": "CPULittleClusterMinFreq",
-      "Duration": 1000,
-      "Value": "9999999"
-    },
-    {
-      "PowerHint": "LAUNCH",
       "Node": "CPUBWHystTriggerCount",
       "Duration": 1000,
       "Value": "0"
@@ -395,36 +377,6 @@
     },
     {
       "PowerHint": "LAUNCH",
-      "Node": "GPUIdleTimer",
-      "Duration": 1000,
-      "Value": "1000"
-    },
-    {
-      "PowerHint": "EXPENSIVE_RENDERING",
-      "Node": "PowerHALRenderingState",
-      "Duration": 0,
-      "Value": "EXPENSIVE_RENDERING"
-    },
-    {
-      "PowerHint": "EXPENSIVE_RENDERING",
-      "Node": "GPUMinFreq",
-      "Duration": 0,
-      "Value": "680000000"
-    },
-    {
-      "PowerHint": "EXPENSIVE_RENDERING",
-      "Node": "GPUForceClkOn",
-      "Duration": 0,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "EXPENSIVE_RENDERING",
-      "Node": "GPUForceRailOn",
-      "Duration": 0,
-      "Value": "1"
-    },
-    {
-      "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUIdleTimer",
       "Duration": 1000,
       "Value": "1000"
