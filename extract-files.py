@@ -58,6 +58,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'system_ext/lib64/libwfdservice.so': blob_fixup()
+        .add_needed('libaudioclient_shim.so')
     (
         'vendor/bin/hw/android.hardware.security.keymint-service-qti',
         'vendor/bin/hw/vendor.semc.hardware.secd@1.1-service',
